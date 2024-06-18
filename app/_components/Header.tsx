@@ -15,18 +15,18 @@ export const Header = () => {
             </div>   
                 <div className="flex-1"></div>
 
-                <ul className="flex items-center gap-2">
-                    <Link href={"https://github.com/JonathanDevred/"}>
-                    <Button className="hover:bg-indigo-500" >
-                        <GithubIcon size={16} className="text-foreground" />
-                    </Button>
-                    </Link>
-                    <Link href={"https://www.linkedin.com/in/jonathan-devred/"}>
-                    <Button className="hover:bg-indigo-500" >
-                        <LinkedInIcon size={16} className="text-foreground" />
-                    </Button>
-                    </Link>
-                </ul>
+                    <ul className="flex items-center gap-2">
+                        <Link href={"https://github.com/JonathanDevred/"}>
+                        <Button className="hover:bg-indigo-500" >
+                            <GithubIcon size={16} className="text-foreground" />
+                        </Button>
+                        </Link>
+                        <Link href={"https://www.linkedin.com/in/jonathan-devred/"}>
+                        <Button className="hover:bg-indigo-500" >
+                            <LinkedInIcon size={16} className="text-foreground" />
+                        </Button>
+                        </Link>
+                    </ul>
             </Section>
         </header>
     );

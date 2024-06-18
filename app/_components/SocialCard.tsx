@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/card";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
@@ -11,7 +12,7 @@ type SocialCardProps = {
 };
 export const SocialCard = (props: SocialCardProps) => {
     return (
-        <Link href={props.url}>
+        <a target="_blank" href={props.url}>
             <Card className="p-3 mb-2 hover:bg-accent/50 transition-colors flex items-center gap-4 group"> {/* Ajout de la classe 'group' */}
                 <div className="relative">
                     <img src={props.image} alt={props.title} className="h-10 w-10" />
@@ -31,6 +32,6 @@ export const SocialCard = (props: SocialCardProps) => {
                     size={16}
                     className="transition-transform group-hover:translate-x-2 group-hover:-translate-y-2 mr-4" />
             </Card>
-        </Link>
+        </a>
     );
 };
