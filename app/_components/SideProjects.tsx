@@ -28,7 +28,7 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     {
         Logo: Code,
         title: "Test Title",
-        description: "Test desc",
+        description: "Test desc Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste itaque quam inventore similique? Culpa eveniet suscipit sint harum quia impedit sed aperiam quos quas, nihil velit obcaecati perferendis tenetur eum.",
         url: "/"
     },
     {

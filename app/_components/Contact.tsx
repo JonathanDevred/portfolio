@@ -8,7 +8,8 @@ export const Contact = () => {
         Wanna work with me ? 
         </h2>
         <p className="text-sm text-muted-foreground mb-4">Let‘s chat together !</p>
-        <div className=" flex gap-4 ">
+        <div className=" flex flex-col md:flex-row gap-4 ">
+
         <SocialCard image="https://lh3.googleusercontent.com/a/ACg8ocK0sTI6SA1z7VBJWRdo-ADNvd4VoIunduvgWfhSwy_bpkU1tR1u=s576-c-no" 
         mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bGEl9v47XieEtHyj0TqTr1tOXJmib-KHtw&s" 
         title="My LinkedIn" description="My Linkedin Profile" url="https://www.linkedin.com/in/jonathan-devred/" />
