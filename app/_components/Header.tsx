@@ -11,7 +11,6 @@ export const Header = () => {
             <Section className="relative flex items-center justify-between py-2">
             <div>
             <Image width={140} height={140} src="/RavenTech.png" alt="RavenTech's Logo" />
-            <h1 className="text-lg font-bold text-primary-foreground">RavenTech.com</h1>
             </div>   
                 <div className="flex-1"></div>
 

@@ -14,7 +14,7 @@ export const Hero = () => {
   return (
     <Section className="flex max-lg:flex-col items-start gap-4">
         <div className="flex-[3] flex flex-col gap-2">
-            <h2 className="font-caption text-primary text-4xl">Jonathan Devred</h2>
+            <h2 className="font-caption text-4xl">Jonathan Devred</h2>
             <h3 className="font-caption text-primary text-2xl">Software Developer </h3>
             <p className="font-caption text-l">
             <span className="font-bold text-xl block ">Hello !</span> 
@@ -27,7 +27,7 @@ export const Hero = () => {
                 React
             </Code> based in 
             <Code className="inline-flex items-center gap-1 group">
-            🇲🇽 Mexico</Code> 
+            🇲🇫 France</Code> 
              with a great interest in crafting  immersive digital experiences. 
              I thrive on bringing creative ideas to life through code.</span>
              My journey in the world of software development has equipped me 

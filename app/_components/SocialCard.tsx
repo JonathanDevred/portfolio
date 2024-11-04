@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/card";
 import { ArrowUpRight } from "lucide-react";
-import Link from "next/link";
 
 type SocialCardProps = {
     image: string;
@@ -13,7 +12,7 @@ type SocialCardProps = {
 export const SocialCard = (props: SocialCardProps) => {
     return (
         <a target="_blank" href={props.url}>
-            <Card className="p-3 mb-2 hover:bg-accent/50 transition-colors flex items-center gap-4 group"> {/* Ajout de la classe 'group' */}
+            <Card className="p-3 mb-2 hover:bg-accent/50 transition-colors flex items-center gap-4 group"> 
                 <div className="relative">
                     <img src={props.image} alt={props.title} className="h-10 w-10" />
                     <img src={props.mediumImage} alt={props.title} className="h-4 w-4 absolute -bottom-2 -right-2 rounded-full" />
